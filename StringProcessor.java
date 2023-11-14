@@ -76,6 +76,7 @@ public class StringProcessor {
         }
         return frequencyMap;
     }
+    
   // Getter, setter cho inputString
     public String getInputString() {
         return inputString;
@@ -84,7 +85,7 @@ public class StringProcessor {
     public void setInputString(String inputString) {
         this.inputString = inputString;
     }
-}
+    
     public static void main(String[] args) {
         StringProcessor processor = new StringProcessor("Java mãi đỉnh! xD");
         System.out.println("Original String: " + processor.getInputString());
